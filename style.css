@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(9, 9, 65);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+main{
+    background-color: white;
+    color: rgb(9, 9, 65);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 1450px;
+    margin: 6rem auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main>* {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+li.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    background-color: rgb(9, 9, 65);
+    color:white;
+    display: flex;
+}
+
+li.box.fizz{
+    background-color: green;
+}
+li.box.buzz{
+    background-color: red;
+}
+
+li.box.fizzbuzz{
+    background-color: goldenrod;
+}
+
+li h3 {
+    margin: auto;
+}
+
+li div {
+    margin-right: .45rem;
+}
